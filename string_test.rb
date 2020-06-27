@@ -19,3 +19,15 @@ puts('aaaaaaaaaaa'.length())
 
 # To substitute
 puts('Hello World'.sub('orld','Ruby'))
+
+#특수문자 escape
+puts('I Will \"BE\" Back') #Result: I Will \"BE\" Back - In Ruby, '' makes the whole sentence as just it is. so '' !==""
+puts("I Will \"BE\" Back") #Result: I Will "BE" Back
+puts('\\')
+
+#줄바꿈 New Line \n / Tab \t
+puts("Hello Enter\nWorld")
+puts("Hello Tab\tWorld")
+
+#Alert sound \a - 컴퓨터의 기본 경고음
+puts("\a")
