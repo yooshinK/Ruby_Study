@@ -10,3 +10,8 @@ puts("Story"+title+x.to_s)
 puts("5".to_i)
 puts("5".to_f)
 puts("5.8".to_i) #
+
+donation = 200
+sponsor = 20
+student = 5
+puts("Amount of donations per sponsors = "+ ((donation*student)/sponsor).to_s)
