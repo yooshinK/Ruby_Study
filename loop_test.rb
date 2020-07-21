@@ -1,6 +1,6 @@
 i = 0
 while i < 3 do # true, false
-  puts('HELLO')
+  puts('HELLO Ruby')
   puts('Hello '+i.to_s)
   i += 1
 end
