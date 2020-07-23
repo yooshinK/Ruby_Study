@@ -21,3 +21,18 @@ for member in members1 do
   print(member)
   print(" ")
 end
+
+puts("\n-----------------------------")
+
+for item in [5,6,7,8,9] do # == 5..9 Ruby shows until the last container value
+  print(item)
+  print("-T ")
+end
+
+
+puts("\n-----------------------------")
+
+for item in 5..10 do # == [5,6,7,8,9,10] Ruby shows until the last container value
+  print(item)
+  print("-T2 ")
+end
