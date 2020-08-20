@@ -1,3 +1,18 @@
+class Cal
+  def initialize(a,b) #생성자, Constructor -> 자동호출
+    p a, b
+  end
+
+  def add()
+    return a+b
+  end
+
+  def subtract()
+    return a-b
+  end
+
+end
+
 c1 = Cal.new(10,7)
 puts(c1.add())
 p c1.add()
