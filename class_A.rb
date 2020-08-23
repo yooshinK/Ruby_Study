@@ -1,14 +1,17 @@
 class Cal
+
   def initialize(a,b) #생성자, Constructor -> 자동호출
-    p a, b
+    p 'Test Ruby', a, b #a and b are local variables
+    @a = a # @a, @b are instance variables
+    @b = b
   end
 
   def add()
-    return a+b
+    return @a+@b
   end
 
   def subtract()
-    return a-b
+    return @a-@b
   end
 
 end
