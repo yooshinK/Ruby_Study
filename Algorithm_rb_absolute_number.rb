@@ -8,8 +8,9 @@ end
 
 def abs_square(n)
     a = n * n
+    p Integer.sqrt(100)
     return Math.sqrt(a) # return result as float
-    # math.isqrt(n)	Returns the nearest integer square root of n
+    # Integer.sqrt(n)	Returns the nearest integer square root of n
 end
 
 p abs_sign(-3)
