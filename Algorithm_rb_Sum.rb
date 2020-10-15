@@ -50,17 +50,13 @@ puts("------sum Gauss--------")
 puts("Sum = "+ sum_Gauss(10).to_s)
 puts("Sum = "+ sum_Gauss(-10).to_s)
 
-puts("------Just Factorial--------")
-puts("Factorial value is "+ Math.gamma(10).to_s)
-# # Resutl
-# ------sum factorial--------
+# # Result
+#------sum recursive--------
 # Sum = 55
 # Sum = -55
 # ------sum for--------
 # Sum = 55
 # Sum = -55
 # ------sum Gauss--------
-# Sum = 55.0
-# Sum = -55.0
-# ------Just Factorial--------
-# Factorial value is 120
+# Sum = 55
+# Sum = -55
