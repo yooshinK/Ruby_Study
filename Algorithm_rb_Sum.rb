@@ -11,12 +11,15 @@ end
 #-------------------------------------
 def sum_for(n)
     s = 0
+    i = 0
     if n > 0
-        for i in range(1, n + 1)
+        for i in n+1 do
             s = s + i
+        end
     elsif n < 0
-        for i in range(n,1)
+        for i in n do
             s = s + i
+        end
     else
         return 0
     end
@@ -26,7 +29,7 @@ end
 def sum_Gauss(n)
     s = 0
     if n > 0
-        s = n*(n+1)//2 # in Python '//' double slash means integer divide
+        s = n*(n+1)
     elsif n < 0
         s = (n*(n-1)/2)*-1 # one slash will show ~.0
     else
@@ -37,29 +40,18 @@ end
 #-------------------------------------
 
 puts("------sum recursive--------")
-puts("Sum = "+sum_recursive(10).__str__())
-puts("Sum = "+sum_recursive(-10).__str__())
+puts("Sum = ", sum_recursive(10).to_s)
+puts("Sum = ", sum_recursive(-10))
 
 puts("------sum for--------")
-puts("Sum = "+sum_for(10).__str__())
-puts("Sum = "+sum_for(-10).__str__())
+puts("Sum = ", sum_for(10))
+puts("Sum = ", sum_for(-10))
 
 puts("------sum Gauss--------")
-puts("Sum = "+sum_Gauss(10).__str__())
-puts("Sum = "+sum_Gauss(-10).__str__())
+puts("Sum = ", sum_Gauss(10))
+puts("Sum = ", sum_Gauss(-10))
 
 puts("------Just Factorial--------")
-puts("Factorial value is "+math.factorial(5).__str__())
+puts("Factorial value is ", Math.factorial(5))
 
-# # Resutl
-# ------sum factorial--------
-# Sum = 55
-# Sum = -55
-# ------sum for--------
-# Sum = 55
-# Sum = -55
-# ------sum Gauss--------
-# Sum = 55.0
-# Sum = -55.0
-# ------Just Factorial--------
-# Factorial value is 120
+# # Result
