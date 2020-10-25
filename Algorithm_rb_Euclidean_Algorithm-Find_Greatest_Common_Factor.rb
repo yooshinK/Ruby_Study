@@ -10,12 +10,11 @@ end
 #-------------------------------------
 print("Enter the first num - ")
 num1 = gets.chomp()
-print("\n")
 print("Enter the first num - ")
 num2 = gets.chomp()
 
 print("The Greatest Common Factor - Euclidean Algorithm - ", "\n")
-puts(Euclidean_algorithm(num1, num2))
+puts(Euclidean_algorithm(num1.to_i, num2.to_i))
 #-------------------------------------
 # Result:
 # The Greatest Common Factor - Euclidean Algorithm -
