@@ -1,14 +1,17 @@
 #-------------------------------------
 def Euclidean_algorithm(a,b)
     puts("gcd: - ", a, b)
-    if b == 0 do
+    if b == 0
         return a
     end
     return Euclidean_algorithm(b, (a % b))
 end
 #-------------------------------------
-num1 = int(input("Enter the first num - "))
-num2 = int(input("Enter the second num - "))
+print("Enter the first num - ")
+num1 = gets.chomp()
+p " "
+print("Enter the first num - ")
+num2 = gets.chomp()
 
 print("The Greatest Common Factor - Euclidean Algorithm - ")
 puts(Euclidean_algorithm(num1, num2))
