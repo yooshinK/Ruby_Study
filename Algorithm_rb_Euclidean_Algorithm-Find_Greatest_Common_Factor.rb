@@ -14,7 +14,7 @@ print("Enter the first num - ")
 num2 = gets.chomp()
 
 print("The Greatest Common Factor - Euclidean Algorithm - ", "\n")
-puts(Euclidean_algorithm(num1.to_i, num2.to_i))
+puts(Euclidean_algorithm(num1.to_i, num2.to_i)) # to_i : change to integer
 #-------------------------------------
 # Result:
 # The Greatest Common Factor - Euclidean Algorithm -
